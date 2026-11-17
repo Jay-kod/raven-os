@@ -1,0 +1,19 @@
+{
+  "version": 1,
+  "task": "Build overlay shell",
+  "status": "working",
+  "completed": 0,
+  "total": 5,
+  "currentStep": "phase-2",
+  "steps": [
+    {
+      "id": "phase-2",
+      "title": "Progress pipeline",
+      "status": "working",
+      "files": [
+        "packages/core/src/progress.ts"
+      ]
+    }
+  ],
+  "updatedAt": "2026-11-17T00:00:00.000Z"
+}

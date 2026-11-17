@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "target": "ES2022",
+    "useDefineForClassFields": true,
+    "module": "ESNext",
+    "moduleResolution": "Bundler",
+    "strict": true,
+    "noEmit": true,
+    "skipLibCheck": true,
+    "types": ["node"],
+    "baseUrl": ".",
+    "paths": { "@core/*": ["packages/core/src/*"] }
+  },
+  "include": ["apps/**/*.ts", "apps/**/*.vue", "packages/**/*.ts", "electron.vite.config.ts"]
+}
